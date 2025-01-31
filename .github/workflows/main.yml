@@ -9,8 +9,8 @@ on:
   workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
 
 env:
-  DOCKER_USERNAME: slothcroissant
-  DOCKER_CONTAINER_NAME: caddy-cloudflaredns
+  DOCKER_USERNAME: kobimex
+  DOCKER_CONTAINER_NAME: caddy-cloudflaredns-l4
   DOCKER_TARGET_PLATFORM: linux/amd64, linux/arm64, linux/arm/v8, linux/arm/v7
 
 jobs:
