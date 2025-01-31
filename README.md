@@ -46,9 +46,9 @@ Few things to note:
    }
    ```
 
-3. This image now supports tagging! [See available tags here](https://hub.docker.com/r/slothcroissant/caddy-cloudflaredns/tags). To select a specific version of `caddy`, set your [Docker image tag](https://docs.docker.com/engine/reference/run/#imagetag) to the caddy version you'd like to use. 
+3. Imsge supports tagging! [See available tags here](https://hub.docker.com/r/kobimex/caddy-cloudflaredns/tags). To select a specific version of `caddy`, set your [Docker image tag](https://docs.docker.com/engine/reference/run/#imagetag) to the caddy version you'd like to use. 
 
-   Example: `slothcroissant/caddy-cloudflaredns:2.4.3`
+   Example: `kobimex/caddy-cloudflaredns:2.9.1`
 
 [version-image]: https://img.shields.io/github/v/release/SlothCroissant/caddy-cloudflaredns?style=for-the-badge
 [version-url]: https://github.com/SlothCroissant/caddy-cloudflaredns/releases
