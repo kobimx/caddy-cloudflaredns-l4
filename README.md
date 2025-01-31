@@ -6,14 +6,17 @@
 
 Caddy docker image combining the cloudflaredns and the low level l4 plugins respectively.
 
+- [Caddy Cloudflare](https://github.com/caddy-dns/cloudflare)
+- [Caddy L4](https://github.com/mholt/caddy-l4)
+
 Please see the official [Caddy Docker Image](https://hub.docker.com/_/caddy) for deployment instructions.
 
-Builds are available at the following Docker repositories:
+### Builds are available at the following Docker repositories:
 
 * Docker Hub: [docker.io/kobimex/caddy-cloudflaredns-l4](https://hub.docker.com/r/kobimex/caddy-cloudflaredns-l4)
 * GitHub Container Registry: [ghcr.io/kobimx/caddy-cloudflaredns-l4](https://ghcr.io/kobimx/caddy-cloudflaredns-l4)
 
-Few things to note: 
+### Uage: 
 
 1. You should add CLOUDFLARE_EMAIL and CLOUDFLARE_API_TOKEN as environment variables to your `docker run` command. Example:
 
