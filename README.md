@@ -10,8 +10,8 @@ Please see the official [Caddy Docker Image](https://hub.docker.com/_/caddy) for
 
 Builds are available at the following Docker repositories:
 
-* Docker Hub: [docker.io/kobimex/caddy-cloudflaredns](https://hub.docker.com/r/kobimex/caddy-cloudflaredns)
-* GitHub Container Registry: [ghcr.io/kobimx/caddy-cloudflaredns](https://ghcr.io/kobimx/caddy-cloudflaredns)
+* Docker Hub: [docker.io/kobimex/caddy-cloudflaredns-l4](https://hub.docker.com/r/kobimex/caddy-cloudflaredns-l4)
+* GitHub Container Registry: [ghcr.io/kobimx/caddy-cloudflaredns-l4](https://ghcr.io/kobimx/caddy-cloudflaredns-l4)
 
 Few things to note: 
 
