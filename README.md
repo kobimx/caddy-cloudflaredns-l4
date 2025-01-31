@@ -2,15 +2,16 @@
 [![caddy on DockerHub][dockerhub-image]][dockerhub-url]
 [![Docker Build][gh-actions-image]][gh-actions-url]
 
-# caddy-cloudflaredns
+# caddy-cloudflaredns-l4
+
+Caddy docker image combining the cloudflaredns and the low level l4 plugins respectively.
 
 Please see the official [Caddy Docker Image](https://hub.docker.com/_/caddy) for deployment instructions.
 
 Builds are available at the following Docker repositories:
 
-* Docker Hub: [docker.io/slothcroissant/caddy-cloudflaredns](https://hub.docker.com/r/slothcroissant/caddy-cloudflaredns)
-* GitHub Container Registry: [ghcr.io/slothcroissant/caddy-cloudflaredns](https://ghcr.io/slothcroissant/caddy-cloudflaredns)
-* Quay Container Registry: [quay.io/slothcroissant/caddy-cloudflaredns](https://quay.io/repository/slothcroissant/caddy-cloudflaredns)
+* Docker Hub: [docker.io/slothcroissant/caddy-cloudflaredns](https://hub.docker.com/r/kobimex/caddy-cloudflaredns)
+* GitHub Container Registry: [ghcr.io/slothcroissant/caddy-cloudflaredns](https://ghcr.io/kobimex/caddy-cloudflaredns)
 
 Few things to note: 
 
