@@ -10,6 +10,7 @@ on:
 
 env:
   DOCKER_USERNAME: kobimex
+  GITHUB_DOCKER_USERNAME: kobimx
   DOCKER_CONTAINER_NAME: caddy-cloudflaredns-l4
   DOCKER_TARGET_PLATFORM: linux/amd64, linux/arm64, linux/arm/v8, linux/arm/v7
 
@@ -60,8 +61,8 @@ jobs:
           tags: |
             ${{ env.DOCKER_USERNAME }}/${{ env.DOCKER_CONTAINER_NAME }}:${{ steps.prepare.outputs.tag }}
             ${{ env.DOCKER_USERNAME }}/${{ env.DOCKER_CONTAINER_NAME }}:latest
-            ghcr.io/${{ env.DOCKER_USERNAME }}/${{ env.DOCKER_CONTAINER_NAME }}:${{ steps.prepare.outputs.tag }}
-            ghcr.io/${{ env.DOCKER_USERNAME }}/${{ env.DOCKER_CONTAINER_NAME }}:latest
+            ghcr.io/${{ env.GITHUB_DOCKER_USERNAME }}/${{ env.GITHUB_DOCKER_USERNAME }}:${{ steps.prepare.outputs.tag }}
+            ghcr.io/${{ env.GITHUB_DOCKER_USERNAME }}/${{ env.GITHUB_DOCKER_USERNAME }}:latest
             
       - name: Create Release
         uses: softprops/action-gh-release@v2
