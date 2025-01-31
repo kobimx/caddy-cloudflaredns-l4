@@ -46,15 +46,15 @@ Few things to note:
    }
    ```
 
-3. Image supports tagging! [See available tags here](https://hub.docker.com/r/kobimex/caddy-cloudflaredns/tags). To select a specific version of `caddy`, set your [Docker image tag](https://docs.docker.com/engine/reference/run/#imagetag) to the caddy version you'd like to use. 
+3. Image supports tagging! [See available tags here](https://hub.docker.com/r/kobimex/caddy-cloudflaredns-l4/tags). To select a specific version of `caddy`, set your [Docker image tag](https://docs.docker.com/engine/reference/run/#imagetag) to the caddy version you'd like to use. 
 
-   Example: `kobimex/caddy-cloudflaredns:2.9.1`
+   Example: `kobimex/caddy-cloudflaredns-l4:2.9.1`
 
-[version-image]: https://img.shields.io/github/v/release/SlothCroissant/caddy-cloudflaredns?style=for-the-badge
-[version-url]: https://github.com/SlothCroissant/caddy-cloudflaredns/releases
+[version-image]: https://img.shields.io/github/v/release/kobimx/caddy-cloudflaredns-l4?style=for-the-badge
+[version-url]: https://github.com/kobimx/caddy-cloudflaredns-l4/releases
 
-[gh-actions-image]: https://img.shields.io/github/actions/workflow/status/SlothCroissant/caddy-cloudflaredns/main.yml?style=for-the-badge
-[gh-actions-url]: https://github.com/SlothCroissant/caddy-cloudflaredns/actions
+[gh-actions-image]: https://img.shields.io/github/actions/workflow/status/kobimx/caddy-cloudflaredns-l4/main.yml?style=for-the-badge
+[gh-actions-url]: https://github.com/kobimx/caddy-cloudflaredns-l4/actions
 
-[dockerhub-image]: https://img.shields.io/docker/pulls/slothcroissant/caddy-cloudflaredns?label=DockerHub%20Pulls&style=for-the-badge
-[dockerhub-url]: https://hub.docker.com/r/slothcroissant/caddy-cloudflaredns
+[dockerhub-image]: https://img.shields.io/docker/pulls/kobimex/caddy-cloudflaredns-l4?label=DockerHub%20Pulls&style=for-the-badge
+[dockerhub-url]: https://hub.docker.com/r/kobimex/caddy-cloudflaredns-l4
