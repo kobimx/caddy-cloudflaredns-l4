@@ -11,7 +11,7 @@ Please see the official [Caddy Docker Image](https://hub.docker.com/_/caddy) for
 Builds are available at the following Docker repositories:
 
 * Docker Hub: [docker.io/kobimex/caddy-cloudflaredns](https://hub.docker.com/r/kobimex/caddy-cloudflaredns)
-* GitHub Container Registry: [ghcr.io/kobimex/caddy-cloudflaredns](https://ghcr.io/kobimex/caddy-cloudflaredns)
+* GitHub Container Registry: [ghcr.io/kobimx/caddy-cloudflaredns](https://ghcr.io/kobimx/caddy-cloudflaredns)
 
 Few things to note: 
 
@@ -46,7 +46,7 @@ Few things to note:
    }
    ```
 
-3. Imsge supports tagging! [See available tags here](https://hub.docker.com/r/kobimex/caddy-cloudflaredns/tags). To select a specific version of `caddy`, set your [Docker image tag](https://docs.docker.com/engine/reference/run/#imagetag) to the caddy version you'd like to use. 
+3. Image supports tagging! [See available tags here](https://hub.docker.com/r/kobimex/caddy-cloudflaredns/tags). To select a specific version of `caddy`, set your [Docker image tag](https://docs.docker.com/engine/reference/run/#imagetag) to the caddy version you'd like to use. 
 
    Example: `kobimex/caddy-cloudflaredns:2.9.1`
 
