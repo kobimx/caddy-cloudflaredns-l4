@@ -61,8 +61,8 @@ jobs:
           tags: |
             ${{ env.DOCKER_USERNAME }}/${{ env.DOCKER_CONTAINER_NAME }}:${{ steps.prepare.outputs.tag }}
             ${{ env.DOCKER_USERNAME }}/${{ env.DOCKER_CONTAINER_NAME }}:latest
-            ghcr.io/${{ env.GITHUB_DOCKER_USERNAME }}/${{ env.GITHUB_DOCKER_USERNAME }}:${{ steps.prepare.outputs.tag }}
-            ghcr.io/${{ env.GITHUB_DOCKER_USERNAME }}/${{ env.GITHUB_DOCKER_USERNAME }}:latest
+            ghcr.io/${{ env.GITHUB_DOCKER_USERNAME }}/${{ env.DOCKER_CONTAINER_NAME }}:${{ steps.prepare.outputs.tag }}
+            ghcr.io/${{ env.GITHUB_DOCKER_USERNAME }}/${{ env.DOCKER_CONTAINER_NAME }}:latest
             
       - name: Create Release
         uses: softprops/action-gh-release@v2
